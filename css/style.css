@@ -8,8 +8,11 @@ body {
 
 /* DEBUG HEADER */
 
-.debug .head-bar {
+.debug header {
     background-color: #add8e6;
+}
+
+.debug .head-bar {
     height: 40px;
 }
 
@@ -99,7 +102,7 @@ body {
 .section-d,
 .top-footer,
 .bottom-footer {
-    padding: 40px 280px;
+    padding: 40px 0px;
 }
 
 .menu-a,
@@ -108,6 +111,7 @@ body {
 .menu-d {
     display: flex;
     margin: auto;
+    width: 70%;
 }
 
 .a-menu-footer,
@@ -115,6 +119,18 @@ body {
 .c-menu-footer,
 .d-menu-footer {
     width: 17.5%;
+}
+
+.a-left,
+.b-right,
+.c-left {
+    width: 60%;
+}
+
+.a-right,
+.b-left,
+.c-right {
+    width: 40%;
 }
 
 
@@ -126,7 +142,9 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0 280px;
+    padding: 0;
+    margin: auto;
+    width: 70%;
 }
 
 .news {
@@ -140,31 +158,6 @@ body {
 
 
 /* MAIN */
-
-.a-left {
-    width: 60%;
-}
-
-.a-right {
-    width: 40%;
-}
-
-.b-left {
-    width: 40%;
-}
-
-.b-right {
-    width: 60%;
-}
-
-.c-left {
-    width: 60%;
-}
-
-.c-right {
-    width: 40%;
-}
-
 
 /* FOOTER */
 
