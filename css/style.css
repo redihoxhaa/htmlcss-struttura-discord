@@ -8,11 +8,43 @@ body {
 
 /* DEBUG */
 
+.debug .head-bar {
+    background-color: #add8e6;
+    height: 40px;
+}
+
+.debug .news {
+    background-color: #00008b;
+}
+
+.debug .news-frame {
+    background-color: #ee82ee;
+    height: 300px;
+}
+
 /* COMMON */
 
 /* TYPOGRAPHY */
 
 /* HEADER */
+
+header {}
+
+.head-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 250px;
+}
+
+.news {
+    padding: 40px 0;
+}
+
+.news-frame {
+    width: 50%;
+    margin: 0 auto;
+}
 
 /* MAIN */
 
