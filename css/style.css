@@ -17,7 +17,13 @@ DEBUG HEADER
 }
 
 .debug .head-bar {
-    height: 40px;
+    height: 50px;
+}
+
+.debug .logo,
+.debug .link,
+.debug .login {
+    background-color: #daa520;
 }
 
 .debug .news {
@@ -97,9 +103,46 @@ DEBUG FOOTER
     height: 50px;
 }
 
+.debug .logo-footer,
+.debug button {
+    background-color: #ffb8c3;
+}
+
+
+
 /* 
 COMMON 
 */
+
+.logo,
+.link,
+.login {
+    padding: 5px
+}
+
+.logo,
+.link,
+.login,
+.news-frame,
+.a-left,
+.a-right,
+.b-left,
+.b-right,
+.c-left,
+.c-right,
+.menu-d,
+.main-menu-footer,
+.logo-footer,
+button {
+    border: 1px dashed black;
+}
+
+.a-menu-footer,
+.b-menu-footer,
+.c-menu-footer,
+.d-menu-footer {
+    border: 1px dashed white;
+}
 
 .head-bar,
 .news,
@@ -143,6 +186,11 @@ COMMON
     width: 40%;
 }
 
+.logo-footer,
+button {
+    padding: 4px;
+}
+
 /* 
 TYPOGRAPHY 
 */
@@ -172,12 +220,17 @@ HEADER
 
 }
 
+.link a {
+    text-decoration: none;
+    color: black;
+}
+
 .news {
     padding: 40px 0;
 }
 
 .news-frame {
-    width: 40%;
+    width: 50%;
     margin: auto;
 }
 
