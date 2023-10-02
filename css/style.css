@@ -63,26 +63,26 @@ body {
 
 /* DEBUG FOOTER */
 
-.top-footer,
-.bottom-footer {
+.debug .top-footer,
+.debug .bottom-footer {
     background-color: #23272a;
 }
 
-.main-menu-footer {
+.debug .main-menu-footer {
     background-color: #f08080;
     height: 550px;
 }
 
-.a-menu-footer,
-.b-menu-footer,
-.c-menu-footer,
-.d-menu-footer {
+.debug .a-menu-footer,
+.debug .b-menu-footer,
+.debug .c-menu-footer,
+.debug .d-menu-footer {
     background-color: #20b2aa;
     height: 550px;
 }
 
 
-.footer-bar {
+.debug .footer-bar {
     background-color: #7fffd4;
     height: 50px;
 }
@@ -121,8 +121,6 @@ body {
 /* TYPOGRAPHY */
 
 /* HEADER */
-
-header {}
 
 .head-bar {
     display: flex;
