@@ -6,7 +6,7 @@ body {
     box-sizing: border-box;
 }
 
-/* DEBUG */
+/* DEBUG HEADER */
 
 .debug .head-bar {
     background-color: #add8e6;
@@ -22,7 +22,65 @@ body {
     height: 300px;
 }
 
+/* DEBUG MAIN */
+
+.debug .section-a,
+.debug .section-c {
+    background-color: white;
+}
+
+.debug .section-b,
+.debug .section-d {
+    background-color: #d3d3d3;
+}
+
+.debug .a-left,
+.debug .a-right,
+.debug .b-left,
+.debug .b-right,
+.debug .c-left,
+.debug .c-right {
+    height: 450px;
+}
+
+.debug .a-left,
+.debug .b-right,
+.debug .c-left {
+    background-color: #1e90ff;
+}
+
+.debug .a-right,
+.debug .b-left,
+.debug .c-right {
+    background-color: #ffc0cb;
+
+}
+
+.debug .menu-d {
+    background-color: #228b22;
+    height: 900px;
+}
+
+/* DEBUG FOOTER */
+
 /* COMMON */
+
+.head-bar,
+.news,
+.menu-a,
+.menu-b,
+.menu-c,
+.section-d {
+    padding: 40px 280px;
+}
+
+.menu-a,
+.menu-b,
+.menu-c,
+.menu-d {
+    display: flex;
+    margin: auto;
+}
 
 /* TYPOGRAPHY */
 
@@ -34,7 +92,7 @@ header {}
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0 250px;
+    padding: 0 280px;
 }
 
 .news {
@@ -42,10 +100,36 @@ header {}
 }
 
 .news-frame {
-    width: 50%;
-    margin: 0 auto;
+    width: 40%;
+    margin: auto;
 }
 
+
 /* MAIN */
+
+.a-left {
+    width: 60%;
+}
+
+.a-right {
+    width: 40%;
+}
+
+.b-left {
+    width: 40%;
+}
+
+.b-right {
+    width: 60%;
+}
+
+.c-left {
+    width: 60%;
+}
+
+.c-right {
+    width: 40%;
+}
+
 
 /* FOOTER */
