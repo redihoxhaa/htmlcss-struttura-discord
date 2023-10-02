@@ -63,6 +63,32 @@ body {
 
 /* DEBUG FOOTER */
 
+.top-footer,
+.bottom-footer {
+    background-color: #23272a;
+}
+
+.main-menu-footer {
+    background-color: #f08080;
+    height: 550px;
+}
+
+.a-menu-footer,
+.b-menu-footer,
+.c-menu-footer,
+.d-menu-footer {
+    background-color: #20b2aa;
+    height: 550px;
+}
+
+
+.footer-bar {
+    background-color: #7fffd4;
+    height: 50px;
+}
+
+
+
 /* COMMON */
 
 .head-bar,
@@ -70,7 +96,9 @@ body {
 .menu-a,
 .menu-b,
 .menu-c,
-.section-d {
+.section-d,
+.top-footer,
+.bottom-footer {
     padding: 40px 280px;
 }
 
@@ -81,6 +109,14 @@ body {
     display: flex;
     margin: auto;
 }
+
+.a-menu-footer,
+.b-menu-footer,
+.c-menu-footer,
+.d-menu-footer {
+    width: 17.5%;
+}
+
 
 /* TYPOGRAPHY */
 
@@ -133,3 +169,24 @@ header {}
 
 
 /* FOOTER */
+
+.top-footer {
+    padding-top: 8px;
+    display: flex;
+    border-bottom: 3px solid #d7d7d8;
+}
+
+.main-menu-footer {
+    width: 30%;
+}
+
+.bottom-footer {
+    border-bottom: 1px solid #d7d7d8;
+    padding-bottom: 0px;
+}
+
+.footer-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
